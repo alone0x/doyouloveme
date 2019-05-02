@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>DO YOU LOVE ME</p>
+<button >yes</button>
+<button onmouseover="run()" id="no" style="position: absolute;left: 0;top: 0">no</button>
+<script>
+    function run() {
+        element = document.getElementById("no");
+        element.style.left = Math.random()*window.innerWidth + 'px';
+        element.style.top = Math.random()*window.innerHeight + 'px';
+    }
+</script>
+</body>
+</html>
